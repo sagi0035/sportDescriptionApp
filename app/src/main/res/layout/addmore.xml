@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+
+        android:id="@+id/addMoreLinLay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="100">
+
+        <TextView
+            android:id="@+id/theFirstTextView"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="fill_parent"
+            android:layout_height="200dp"
+            android:text="Tennis"
+            android:textSize="26dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:background="@drawable/tennis"
+            android:gravity="center"
+            android:layout_weight="50"/>
+
+        <TextView
+            android:id="@+id/theSecondTextView"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="fill_parent"
+            android:layout_height="200dp"
+            android:text="Baseball"
+            android:textSize="26dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:background="@drawable/baseball"
+            android:gravity="center"
+            android:layout_weight="50"/>
+
+
+        <TextView
+            android:id="@+id/theInvisibleDescriptionOne"
+            android:layout_width="0dp"
+            android:layout_height="0dp"/>
+
+        <TextView
+            android:id="@+id/theInvisibleDescriptionTwo"
+            android:layout_width="0dp"
+            android:layout_height="0dp"/>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/relolayo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".setUpActivity">
+
+
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:id="@+id/linlayout"
+            >
+
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="100">
+                
+                <TextView
+                    android:id="@+id/theTennis"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_width="fill_parent"
+                    android:layout_height="200dp"
+                    android:text="Tennis"
+                    android:textSize="26dp"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:background="@drawable/tennis"
+                    android:gravity="center"
+                    android:layout_weight="50"/>
+
+                <TextView
+                    android:id="@+id/theBaseBall"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_width="fill_parent"
+                    android:layout_height="200dp"
+                    android:text="Baseball"
+                    android:textSize="26dp"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:background="@drawable/baseball"
+                    android:gravity="center"
+                    android:layout_weight="50"/>
+
+
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+        <Button
+            android:layout_below="@+id/linlayout"
+            android:id="@+id/addASportButton"
+            android:layout_marginTop="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Add a sport"
+            android:layout_centerInParent="true" />
+
+
+
+    </RelativeLayout>
+</ScrollView>
